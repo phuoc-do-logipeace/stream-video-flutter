@@ -23,9 +23,9 @@ class CustomEnvironmentLoader {
 }
 
 // Replace this with your own implementation.
-const CustomEnvironmentLoader? customEnvironmentLoader = null;
+// const CustomEnvironmentLoader? customEnvironmentLoader = null;
 
 // Uncomment the following code and replace the values with your own tokens and API key.
 // Or use more sophisticated logic to load tokens and API key.
-// final customEnvironmentLoader = CustomEnvironmentLoader(
-//     tokenLoader: (userId) => '{USER_TOKEN}', apiKey: '{API_KEY}');
+final customEnvironmentLoader = CustomEnvironmentLoader(
+    tokenLoader: (userId) => 'phuocdh', apiKey: 'ng94fbyx4qtk');

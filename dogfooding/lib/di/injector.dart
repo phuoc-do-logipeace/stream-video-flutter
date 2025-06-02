@@ -46,7 +46,7 @@ class AppInjector {
 
     // Repositories
     locator.registerSingleton(
-      const TokenService(
+      TokenService(
         customEnvironmentLoader: customEnvironmentLoader,
       ),
     );
